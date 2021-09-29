@@ -1,10 +1,5 @@
 /*Name: Anela Karamustafic
- *NETID: akaramus
- *URID: 31404167
- *Project 3
- *Partner: Henry Gardner
- *Lab Section: 6:15-7:30 pm
- */
+*/
 
 import java.util.ArrayList;
 import java.util.List;
