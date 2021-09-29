@@ -1,0 +1,17 @@
+As mentioned in the description this program takes a file of all intersection points and plots a map of the data and provides 
+the shortest path between any 2 points by implementing Dijkstra's algorithm.
+
+The application requires a file formated in the following way: 
+tab-delimited text file where each line needs to consist of 4 piece of data:
+Intersections start with “i”, followed by a unique string ID, and decimal representations of latitude and longitude - i IntersectionID Latitude Longitude 
+or
+Roads start with “r”, followed by a unique string ID, and the IDs of the two intersections it connects - r RoadID Intersection1ID Intersection2ID.
+Three files are provided for the inital testing.
+
+The application can be run in one of the following ways: 
+java StreetMap ur . txt -- show -- directions HOYT MOREY// Showing both map and the directions
+java StreetMap ur . txt -- show // Just showing the map
+java StreetMap ur . txt -- directions HOYT MOREY// Showing the map is optional .
+
+
+
